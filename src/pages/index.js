@@ -1,7 +1,22 @@
 import Home from "./Home"; 
 import People from "./People";
-import XXX from "./XXX";
+import Publications from "./Publications";
+import JoinUs from "./JoinUs";
+import OurLab from "./OurLab";
+import Contact from "./Contact";
+import Outreach from "./Outreach";
+import Research from "./Research";
+import Disclaimer from "./Disclaimer";
+import ___ from "./___";
 
 export {Home, 
         People,
-        XXX}
+        Publications,
+        JoinUs,
+        Contact,
+        Outreach,
+        OurLab,
+        Research,
+        Disclaimer,
+        ___
+        }
