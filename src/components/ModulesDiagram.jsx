@@ -1,4 +1,4 @@
-import { labModules } from "../constants/ourLab"
+import { labModules } from "../constants/laboratories"
 
 
 const ModulesDiagram = () => {

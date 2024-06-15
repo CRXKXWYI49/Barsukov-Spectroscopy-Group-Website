@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion";
-import { labModules } from "../constants/ourLab";
+import { labModules } from "../constants/laboratories";
 
 
 const ModularStationDiagram = () => {

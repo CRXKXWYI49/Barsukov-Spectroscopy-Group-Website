@@ -6,9 +6,9 @@ import { ModularStationDiagram,
          Spacer } from "../components"
 import { methodologies,
          stationCards,
-         labModules} from "../constants/ourLab"
+         labModules} from "../constants/laboratories"
 
-const OurLab = () => {
+const Laboratories = () => {
   return (
     <>
         <Spacer spacerClasses={"h-[60px]"}/>
@@ -55,6 +55,7 @@ const OurLab = () => {
           <CarouselCard CarouselCardData={stationCard}
                        key={index}/>
         ))}
+
       <Spacer spacerClasses={"h-[100px]"}/>
     </>
   )
@@ -64,4 +65,4 @@ const OurLab = () => {
 
 
 
-export default OurLab
+export default Laboratories

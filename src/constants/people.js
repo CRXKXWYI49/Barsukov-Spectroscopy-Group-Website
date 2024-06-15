@@ -1,6 +1,9 @@
 import { igorbarsukov } from "../assets"
 import { minion1, minion2, minion3 } from "../assets"
 
+
+const heroCarouselImages = [minion1, minion2, minion3]
+
 const principalInvestigator = {
     name: "Dr. Igor Barsukov",
     image: igorbarsukov,
@@ -23,7 +26,7 @@ const peopleArray = [
     {
         name: "Shirash Regmi",
         image: minion3,
-        position: "Graduate",
+        position: "Graduate Researcher",
         description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet.",
         linkedIn: null,
         orcid: null
@@ -31,13 +34,13 @@ const peopleArray = [
     {
         name: "Rundong Jiang",
         image: minion3,
-        position: "Graduate",
+        position: "Graduate Researcher",
         description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet.",
         linkedIn: "Insert LinkedIn",
         orcid: "Insert Orcid"
     },
     {
-        name: "Sasha Korotneva",
+        name: "Sasha Korotneva Researcher",
         image: minion2,
         position: "Graduate",
         description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet.",
@@ -47,7 +50,7 @@ const peopleArray = [
      {
       name: "Sarah Sabawi",
       image: minion3,
-      position: "Undergraduate",
+      position: "Undergraduate Researcher",
       description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet.",
       linkedIn: null,
       orcid: null
@@ -55,7 +58,7 @@ const peopleArray = [
      {
       name: "Audrey Ng",
       image: minion3,
-      position: "Undergraduate",
+      position: "Undergraduate Researcher",
       description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet.",
       linkedIn: null,
       orcid: null
@@ -63,15 +66,15 @@ const peopleArray = [
      {
       name: "Trevin Lee",
       image: minion3,
-      position: "Graduate",
+      position: "Undergraduate Researcher",
       description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet.",
       linkedIn: null,
       orcid: null
      },
      {
       name: "Alejandro Hernandez",
-      image: minion3,
-      position: "Undergraduate",
+      image: minion2,
+      position: "Undergraduate Researcher",
       description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet.",
       linkedIn: null,
       orcid: null
@@ -79,7 +82,7 @@ const peopleArray = [
      {
       name: "Jenika Santiago",
       image: minion3,
-      position: "Undergraduate",
+      position: "Data Entry Intern & Janitor",
       description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet.",
       linkedIn: null,
       orcid: null
@@ -87,7 +90,15 @@ const peopleArray = [
      {
       name: "Paddy Sheils",
       image: minion3,
-      position: "Undergraduate",
+      position: "Undergraduate Researcher",
+      description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet.",
+      linkedIn: null,
+      orcid: null
+     },
+     {
+      name: "Ameera Creddle-Rich",
+      image: minion3,
+      position: "Undergraduate Researcher",
       description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet.",
       linkedIn: null,
       orcid: null
@@ -121,4 +132,4 @@ const alumniArray = [
      },
 ]
 
-export {principalInvestigator, peopleArray, alumniArray}
+export {heroCarouselImages, principalInvestigator, peopleArray, alumniArray}

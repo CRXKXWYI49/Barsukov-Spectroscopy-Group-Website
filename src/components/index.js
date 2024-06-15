@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import NewsSection from "./NewsSection";
 import PersonCard from "./PersonCard";
 import BackgroundVideo from "./BackgroundVideo";
 import PublicationCard from "./PublicationCard";
@@ -18,6 +19,7 @@ import CopyButton from "./CopyButton";
 import Spacer from "./Spacer";
 
 export{ Navbar, 
+        NewsSection,
         PersonCard, 
         BackgroundVideo,
         PublicationCard,

@@ -8,6 +8,9 @@ const BackgroundVideo = () => {
         <source src={backgroundvideo} type="video/mp4" />  
       </video>
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-30"></div>
+      <button >
+        <p className="text-white">Toggle Me</p>
+      </button>
     </div>
   )
 }

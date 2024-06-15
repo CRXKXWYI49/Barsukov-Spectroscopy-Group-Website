@@ -43,7 +43,7 @@ const PICard = () => {
                     <a className="flex items-center font-medium"
                        href={principalInvestigator.orcid}
                        target="_blank">
-                        <FaOrcid className="mr-1"/> 
+                        <FaOrcid className="mr-1"/>
                         <h2>Rate My Professor</h2>
                     </a>
                     <a className="flex items-center font-medium"

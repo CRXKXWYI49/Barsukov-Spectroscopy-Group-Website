@@ -1,12 +1,15 @@
-const navLinks = [
+const navLinksTop = [
     { href: "/", id: "Home" },
-    { href: "research", id: "Research" },
-    { href: "people", id: "People" },
-    { href: "ourlab", id: "Our Lab" },
-    { href: "publications", id: "Publications" },
-    { href: "outreach", id: "Outreach" },
-    { href: "joinus", id: "Join Us" },
-    { href: "contact", id: "Contact" },
+    { href: "/laboratories", id: "Laboratories" },
+    { href: "/research", id: "Research" },
+    { href: "/publications", id: "Publications" },
 ];
 
-export { navLinks }
+const navLinksBottom = [
+  { href: "/people", id: "People" },
+  { href: "/outreach", id: "Outreach" },
+  { href: "/contact", id: "Contact" },
+  { href: "/joinus", id: "Join Us" },
+]
+
+export { navLinksTop, navLinksBottom }

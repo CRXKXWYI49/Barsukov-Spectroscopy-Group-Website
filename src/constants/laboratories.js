@@ -19,6 +19,27 @@ const methodologies = [
   },
 ]
 
+
+
+const labModules = [
+  { 
+    title: "Electric Transport", 
+    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam."
+  },
+  { 
+    title: "Microwave Spectroscopy", 
+    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam."
+  },
+  { 
+    title: "Thz Spectroscopy", 
+    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam."
+  },
+  { 
+    title: "Optical Spectroscopy", 
+    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam."
+  },
+]
+
 const stationCards = [
   {
     title: "Q-Station",
@@ -43,27 +64,6 @@ const stationCards = [
   }
 
 ]
-
-
-const labModules = [
-  { 
-    title: "Electric Transport", 
-    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam."
-  },
-  { 
-    title: "Microwave Spectroscopy", 
-    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam."
-  },
-  { 
-    title: "Thz Spectroscopy", 
-    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam."
-  },
-  { 
-    title: "Optical Spectroscopy", 
-    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam."
-  },
-]
-
 
 
 

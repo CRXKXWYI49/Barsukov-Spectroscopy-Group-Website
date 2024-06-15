@@ -19,5 +19,12 @@ const researchArea2 = {
   images: [ourlab3, ourlab2]
 }
 
+const researchArea3 = {
+  title: "Freeze Ray Research",
+  description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet.",
+  images: [ourlab3, ourlab2]
+}
 
-export {researchMission, researchArea, researchArea2}
+
+
+export {researchMission, researchArea, researchArea2, researchArea3}

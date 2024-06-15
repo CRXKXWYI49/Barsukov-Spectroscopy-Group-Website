@@ -1,6 +1,6 @@
 import React from 'react'
 import { CarouselCard, CarouselCardMirrored, Spacer } from '../components'
-import {researchMission, researchArea, researchArea2} from '../constants/research'
+import {researchMission, researchArea, researchArea2, researchArea3} from '../constants/research'
 
 const Research = () => {
   return (
@@ -9,6 +9,7 @@ const Research = () => {
       <CarouselCard CarouselCardData={researchMission}/>
       <CarouselCardMirrored CarouselCardData={researchArea}/>
       <CarouselCard CarouselCardData={researchArea2}/>
+      <CarouselCardMirrored CarouselCardData={researchArea3}/>
       <Spacer spacerClasses={"h-[60px]"}/>
     </>
   )

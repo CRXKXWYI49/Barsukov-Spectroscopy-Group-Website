@@ -2,7 +2,7 @@ import Home from "./Home";
 import People from "./People";
 import Publications from "./Publications";
 import JoinUs from "./JoinUs";
-import OurLab from "./OurLab";
+import Laboratories from "./Laboratories";
 import Contact from "./Contact";
 import Outreach from "./Outreach";
 import Research from "./Research";
@@ -15,7 +15,7 @@ export {Home,
         JoinUs,
         Contact,
         Outreach,
-        OurLab,
+        Laboratories,
         Research,
         Disclaimer,
         ___
