@@ -17,12 +17,12 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
           <section>
             <BackgroundVideo/>
               <div className="w-full flex justify-center">
                 <div className="flex flex-col items-center gap-10 w-[80%] lg:w-[1024px]">
                   <Navbar className="w-[80%] lg:w-[1024px]"/>
+                    <Routes>
                       <Route path="/" element={<Home/>}/>
                       <Route path="/people" element={<People/>}/>
                       <Route path="/publications" element={<Publications/>}/>
@@ -33,13 +33,13 @@ function App() {
                       <Route path="/joinus" element={<JoinUs/>}/>
                       <Route path="/Disclaimer" element={<Disclaimer/>}/>
                       <Route path="/shirash" element={<___/>}/>
+                    </Routes>   
+                  </div>
                 </div>
-              </div>
-            <Footer/>
-          </section>
-        </Routes>   
-      </BrowserRouter>         
-    </>
+              <Footer/>
+            </section>
+        </BrowserRouter>         
+      </>
   )
 }
 
