@@ -27,7 +27,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="list-none pr-5 max-lg:hidden">
+          <div className="list-none pr-10 max-lg:hidden">
 
             <div className="flex flex-row">
             {navLinksTop.map((link, index)=>{

@@ -17,6 +17,9 @@ import MethodologiesCard from "./MethodologiesCard";
 import ModulesDiagram from "./ModulesDiagram";
 import CopyButton from "./CopyButton";
 import Spacer from "./Spacer";
+import StationSection from "./StationSection";
+import LabModulesSection from "./LabModulesSection";
+import MethodologiesSection from "./MethodologiesSection";
 
 export{ Navbar, 
         NewsSection,
@@ -36,5 +39,8 @@ export{ Navbar,
         MethodologiesCard,
         ModulesDiagram,
         CopyButton,
-        Spacer
+        Spacer,
+        StationSection,
+        LabModulesSection,
+        MethodologiesSection
       }

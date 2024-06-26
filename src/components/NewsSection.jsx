@@ -42,7 +42,7 @@ const NewsSection = () => {
           onClick={handleNewsState}
           className="flex flex-row justify-center items-center gap-2"
         >
-          <p>
+          <p className="py-2">
             {newsState == false ? "Show More": "Show Less" }
           </p> 
           {newsState == false? <FaAngleDown className="text-2xl"/>: <FaAngleUp className="text-2xl"/>}

@@ -15,8 +15,6 @@ const Home = () => {
             </div>
         </Hero>
 
-    
-
         <NewsSection/>
 
         <Spacer spacerClasses={"h-[60px]"}/>
@@ -24,8 +22,5 @@ const Home = () => {
   )
 }
 
-// Welcome to barsukov research group!
-// Slogan
-// News Fully extended
 
 export default Home

@@ -14,7 +14,7 @@ const ModularStationDiagram = () => {
   const attachedLower = {
     attached: { 
         opacity: 1, 
-        y: 0, 
+        y: 2, 
         transition:{ 
             duration: 0.5,
             type: "spring",
@@ -38,7 +38,7 @@ const ModularStationDiagram = () => {
   const attachedUpper = {
     attached: { 
         opacity: 1, 
-        y: 0, 
+        y: -2, 
         transition:{ 
             duration: 0.5,
             type: "spring",
@@ -79,18 +79,18 @@ const ModularStationDiagram = () => {
     <>
         <div className="flex flex-col items-center justify-center w-full h-full">
             <div className="flex justify-around gap-4 w-10/12">
-                <motion.div className="grid place-items-center border-2 border-black rounded-xl h-[50px] w-full"
+                <motion.div className="grid place-items-center border-2 border-black rounded-xl h-[70px] w-full p-2"
                             animate={module3 ? "attached" : "detached"}
                             variants={attachedUpper}
                             initial="detached"
-                            >
+                >
                     <h2 className="font-bold font-xl">{labModules[2].title}</h2>
                 </motion.div>
-                <motion.div className="grid place-items-center border-2 border-black rounded-xl h-[50px] w-full"
+                <motion.div className="grid place-items-center border-2 border-black rounded-xl h-[70px] w-full p-2"
                             animate={module4 ? "attached" : "detached"}
                             variants={attachedUpper}
                             initial="detached"
-                            >
+                >
                     <h2 className="font-bold font-xl">{labModules[3].title}</h2>
                 </motion.div>
             </div>
@@ -100,14 +100,14 @@ const ModularStationDiagram = () => {
             </div>
 
             <div className="flex justify-around gap-4 w-10/12">
-                <motion.div className="grid place-items-center border-2 border-black rounded-xl h-[50px] w-full"
+                <motion.div className="grid place-items-center border-2 border-black rounded-xl h-[70px] w-full p-2 "
                             animate={module1 ? "attached" : "detached"}
                             variants={attachedLower}
                             initial="detached"
                 >
                     <h2 className="font-bold font-xl">{labModules[0].title}</h2>
                 </motion.div>
-                <motion.div className="grid place-items-center border-2 border-black rounded-xl h-[50px] w-full"
+                <motion.div className="grid place-items-center border-2 border-black rounded-xl h-[70px] w-full p-2"
                             animate={module2 ? "attached" : "detached"}
                             variants={attachedLower}
                             initial="detached"

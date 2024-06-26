@@ -3,19 +3,23 @@ import { ourlab1, ourlab2, ourlab3, ourlab4 } from "../assets"
 const methodologies = [
   { 
     title: "Computational & Theory", 
-    description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet"
+    description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet",
+    images: [ourlab3],
   },
   { 
     title: "Nano-Device Fabrication", 
-    description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet"
+    description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet",
+    images: [ourlab3],
   },
   { 
     title: "Laboratory Infrastructure", 
-    description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet"
+    description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet",
+    images: [ourlab3],
   },
   { 
     title: "Support", 
-    description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet"
+    description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet",
+    images: [ourlab3],
   },
 ]
 
@@ -24,19 +28,23 @@ const methodologies = [
 const labModules = [
   { 
     title: "Electric Transport", 
-    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam."
+    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam.",
+    images: [ourlab1],
   },
   { 
     title: "Microwave Spectroscopy", 
-    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam."
+    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam.",
+    images: [ourlab1],
   },
   { 
     title: "Thz Spectroscopy", 
-    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam."
+    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam.",
+    images: [ourlab3],
   },
   { 
     title: "Optical Spectroscopy", 
-    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam."
+    description: "Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam.",
+    images: [ourlab3],
   },
 ]
 
@@ -66,7 +74,11 @@ const stations = [
 ]
 
 
+const experimentStationDescription = "All experiment stations were built to be modular..."
+
+
 
 export { methodologies, 
          labModules, 
-         stations }
+         stations,
+        experimentStationDescription }
