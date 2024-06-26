@@ -1,61 +1,60 @@
 import { ModularStationDiagram, 
-         ModulesDiagram,
          Hero, 
          MethodologiesCard,
-         CarouselCard,
          Spacer } from "../components"
-import { methodologies,
-         stationCards,
-         labModules} from "../constants/laboratories"
+
+import { useState, useEffect } from "react"
 
 const Laboratories = () => {
+
+  const [displayState, setDisplayState] = useState(1)
+  const handleDisplayState = (state) => setDisplayState(state);
+
+  const useEffect(() => {
+    if()
+      
+  }, [displayState]);
+
   return (
     <>
-        <Spacer spacerClasses={"h-[60px]"}/>
-        <Hero>
-          <div className="flex flex-col bg-white rounded-std">
-          
-            <h2 className="font-bold text-3xl p-5 mx-auto"> Our Lab </h2>
-              <div className="grid grid-cols-2 pt-10">
-                <h3 className="mx-auto font-bold text-2xl">Modular Experiment Stations</h3>
-                <h3 className="mx-auto font-bold text-2xl">Methodologies</h3>
-              </div>
-              <div className="grid grid-rows-2 grid-cols-4 w-full">
+      <Spacer spacerClasses={"h-[60px]"}/>
 
-                <div className="col-span-2 h-[350px]">
-                  <ModularStationDiagram/>
-                </div>
-
-                <div>
-                  <MethodologiesCard methodologiesCardData={methodologies[0]}/>
-                </div>
-
-                <div> 
-                  <MethodologiesCard methodologiesCardData={methodologies[1]}/>
-                </div>
-                
-                <div className="col-span-2">
-                  <ModulesDiagram/>
-                </div>
-
-                <div>
-                  <MethodologiesCard methodologiesCardData={methodologies[2]}/>
-                </div>
-
-                <div>
-                  <MethodologiesCard methodologiesCardData={methodologies[3]}/>
-                </div>
-
-              </div>
-
+      <Hero>
+        <div className="flex flex-col items-center bg-white rounded-std">
+          <h1 className="font-bold text-3xl py-5">
+            Modular Experiment Stations
+          </h1>
+          <div className="grid grid-cols-2 ">
+            <div className="h-[400px]">
+              <ModularStationDiagram/>
             </div>
-        </Hero>
-
-        {stationCards.map((stationCard, index)=>(
-          <CarouselCard CarouselCardData={stationCard}
-                       key={index}/>
-        ))}
-
+            <p className="flex items-center font-light">
+              All experiment stations are built with modularity in mind
+            </p>
+          </div>
+          <div className="flex flex-row w-full justify-around">
+            <button 
+              className="font-bold border p-4 rounded-std"
+              onClick={handleDisplayState(1)}
+            >
+              Our Stations
+            </button>
+            <button 
+              className="font-bold border p-4 rounded-std"
+              onClick={handleDisplayState(2)}
+            >
+              Methodologies
+            </button>
+            <button 
+              className="font-bold border p-4 rounded-std"
+              onClick={handleDisplayState(3)}
+            >
+              Lab Modules
+            </button>
+          </div>
+        </div>
+      </Hero>
+        
       <Spacer spacerClasses={"h-[100px]"}/>
     </>
   )

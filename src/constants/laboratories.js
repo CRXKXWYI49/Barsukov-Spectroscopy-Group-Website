@@ -40,7 +40,7 @@ const labModules = [
   },
 ]
 
-const stationCards = [
+const stations = [
   {
     title: "Q-Station",
     description: `Nam repudiandae repudiandae voluptatem consequatur labore a hic veniam. 
@@ -69,4 +69,4 @@ const stationCards = [
 
 export { methodologies, 
          labModules, 
-         stationCards }
+         stations }
