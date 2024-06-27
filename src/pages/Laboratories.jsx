@@ -21,10 +21,10 @@ const Laboratories = () => {
       <Spacer spacerClasses={"h-[60px]"}/>
       <Hero>
         <div className="flex flex-col items-center bg-white rounded-std">
-          <h1 className="font-bold text-3xl py-5">
+          <h1 className="font-bold text-3xl p-5">
             Modular Experiment Stations
           </h1>
-          <div className="grid grid-cols-2 ">
+          <div className="flex flex-col lg:flex-row ">
             <div className="h-[400px]">
               <ModularStationDiagram/>
             </div>
@@ -33,21 +33,21 @@ const Laboratories = () => {
             </p>
           </div>
 
-          <div className="flex flex-row w-full justify-around">
+          <div className="flex flex-row w-full justify-between lg:justify-around">
             <button 
-              className="font-bold p-4 rounded-std"
+              className="font-bold p-2 lg:p-4"
               onClick={handleDisplayState(1)}
             >
               Our Stations
             </button>
             <button 
-              className="font-bold p-4 rounded-std"
+              className="font-bold p-2 lg:p-4"
               onClick={handleDisplayState(2)}
             >
               Methodologies
             </button>
             <button 
-              className="font-bold p-4 rounded-std"
+              className="font-bold p-2 lg:p-4"
               onClick={handleDisplayState(3)}
             >
               Lab Modules

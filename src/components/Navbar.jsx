@@ -16,13 +16,13 @@ const Navbar = () => {
     <header className="fixed grid place-items-center w-full h-[60px] z-10">
       
       {/* Main Navbar */}
-      <nav className="flex items-center justify-between w-[80%] lg:w-[1024px] h-full rounded-b-std bg-white drop-shadow-4xl">
-          <div className="flex flex-row items-center text-xl font-bold px-5">
-            <span>Barsukov Group @ </span>
+      <nav className="flex items-center justify-between w-[90%] lg:w-[1024px] h-full rounded-b-std bg-white drop-shadow-4xl">
+          <div className="flex flex-row items-center text-md lg:text-xl font-bold px-5">
+            <span className=''>Barsukov Group @ </span>
             <div className="px-2 mt-[9px]">
               <img 
                 src={ucrlogo}
-                width={100}
+                className='w-[70px] lg:w-[100px]'
               />
             </div>
           </div>

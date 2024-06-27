@@ -21,7 +21,8 @@ export default {
         '20vh' : '20vh',
       },
       borderRadius: {
-        'std':'1rem'
+        'std':'1rem',
+        'std-inner': '11px'
       },
       keyframes: {
         spin: {

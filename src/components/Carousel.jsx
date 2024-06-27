@@ -20,7 +20,7 @@ const Carousel = ({images, numSlides=1, width=500, height=400, className = ""}) 
       className={className}
     >
       <div className='relative'>
-        <Slider className='rounded-2xl'>
+        <Slider className='rounded-std-inner'>
           {images.map((image, index) => (
           <Slide key={index}
                  index={index}>
@@ -31,10 +31,10 @@ const Carousel = ({images, numSlides=1, width=500, height=400, className = ""}) 
         
         {numSlides > 1 && (
           <>
-            <ButtonBack className='absolute top-1/2 -left-5 lg:-left-7 transform -translate-y-1/2'>
+            <ButtonBack className='absolute top-1/2 -left-5 transform -translate-y-1/2'>
               <IoIosArrowBack className='text-xl'/>
             </ButtonBack>
-            <ButtonNext className='absolute top-1/2 -right-5 lg:-right-7 transform -translate-y-1/2'>
+            <ButtonNext className='absolute top-1/2 -right-5 transform -translate-y-1/2'>
               <IoIosArrowForward className='text-xl'/>
             </ButtonNext> 
           </>

@@ -25,18 +25,20 @@ const NewsSection = () => {
       <div className="flex flex-col gap-4 p-5">
 
         {displayedList.map((news)=>(
-        <div className="flex flex-row gap-4 w-full">
-            <div className="flex flex-row px-2 font-bold gap-1 w-1/12">
-            <div>{news.month}</div>
-            <div>{news.year}</div>
+          <div className="flex flex-col lg:flex-row lg:gap-4 w-full">
+
+            <div className="flex lg:flex-row gap-1 lg:px-2 font-bold lg:w-1/12">
+                <div>{news.month}</div>
+                <div>{news.year}</div>
             </div>
-              <div className="w-11/12">
+
+            <div className="lg:w-11/12">
               <p dangerouslySetInnerHTML={{ __html: news.news }}/>
             </div>
           </div>  
         ))} 
-
       </div>
+
       <div className="flex justify-center">
         <button 
           onClick={handleNewsState}
