@@ -82,7 +82,7 @@ const peopleArray = [
      {
       name: "Jenika Santiago",
       image: minion3,
-      position: "Data Entry Intern & Janitor",
+      position: "Undergraduate Researcher",
       description: "Amet placeat expedita et sed dolorem. Est voluptatum similique rerum. Fuga est ab est voluptas qui.Et omnis ut dolores eveniet.",
       linkedIn: null,
       orcid: null
