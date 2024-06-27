@@ -84,11 +84,11 @@ const Navbar = () => {
         <div>
           {navLinks.map((link, index) => (
             <ul key={index}>
-              <a
+              <Link
                 href={link.href}
                 onClick={handleNav}>
                 {link.id}
-              </a>
+              </Link>
             </ul>
           ))}
         </div>
