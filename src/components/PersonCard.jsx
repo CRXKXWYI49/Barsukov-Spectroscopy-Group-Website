@@ -24,7 +24,7 @@ const PersonCard = ({ person }) => {
                 (person.linkedIn != null) && 
                 <HoverButton link={person.link}> 
                   <div className="text-2xl">
-                    <FaLinkedin className="hover:scale-125"/>
+                    <FaLinkedin className="hover:scale-125 z-0"/>
                   </div>  
                   <div className="bg-white font-bold text-xl z-10 shadow-xl border-2 border-black rounded-xl p-1">
                     LinkedIn
@@ -35,7 +35,7 @@ const PersonCard = ({ person }) => {
                 (person.orcid != null) && 
                 <HoverButton> 
                   <div className="text-2xl">
-                    <FaOrcid className="hover:scale-125"/>
+                    <FaOrcid className="hover:scale-125 z-0"/>
                   </div>
                   <div className="bg-white font-bold text-xl z-10 shadow-xl border-2 border-black rounded-xl p-1">
                     Orcid
